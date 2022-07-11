@@ -1,2 +1,2 @@
-# rcoketseat_explorer-exercises
+# rcoketseat_discover-exercises
 A repository to save exercises and content that I have learned at Rockedseat, Discover course.

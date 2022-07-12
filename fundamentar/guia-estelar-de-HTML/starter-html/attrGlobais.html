@@ -1,0 +1,48 @@
+<!-- 
+    Atributos globais de tags html que eu ainda não tinha visto:
+
+    contenteditable:
+    É um atributo enumerado que indica se o elemento deve ser editado pelo usuário. Se assim for, o navegador modifica seu widget para permitir a edição. O atributo deve ter um dos seguintes valores:
+    true ou uma string vazia, indica que o elemento deve ser editável;
+    false, indica que o elemento não deve ser editável.
+
+    data-*:
+    Forma uma classe de atributos, denominado de dados personalizados, que permite troca de informações
+    proprietárias entre o HTML e a sua representação no DOM pode ser usada por scripts. Todos esses dados
+    personalizados estão disponíveis através da interface do elemento HTMLElement em que o atributo está definido.
+    A propriedade  HTMLElement.dataset (en-US)  dá acesso a eles.
+
+    dir:
+    É um atributo enumerado que indica a direcionalidade do texto do elemento. Pode ter os seguintes valores:
+
+    → ltr, significa da esquerda para a direita e deve ser usado para idiomas que são escritos da esquerda para a direita
+        (como o português do Brasil, inglês, espanhol, etc);
+    → rtl, significa da direita para a esquerda e deve ser usado para idiomas que são escritos da direita para a esquerda
+        (como o árabe);
+    → auto, que permite que o agente do usuário decida. Ele usa um algoritmo básico, pois analisa os caracteres dentro do
+        elemento até encontrar um caractere com uma direcionalidade forte e, em seguida, aplica essa direcionalidade para
+        todo o elemento.
+
+    hidden:
+    Um atributo booleano indica que o elemento ainda não é relevante ou não é mais relevante.
+    Por exemplo, ele pode ser usado para ocultar elementos da página que não podem ser usados até
+    que o processo de login tenha sido concluído. O navegador não renderizará esses elementos.
+    Este atributo não deve ser usado para ocultar conteúdo que possa ser legível.
+
+    spellcheck (Experimental): 
+    É um atributo enumerado que define se o elemento pode ser verificado por errors de ortografia.
+    Pode ter os seguintes valores:
+    → true, indica que o elemento deve ser, se possível, verificado por errors ortográficos;
+    → false, indica que o elemento não deve ser verificado quanto à ortografia do texto.
+
+    tabindex:
+    É um atributo que recebe valores inteiros e indica se um elemento pode receber o foco de entrada de valores (é focável),
+    se ele deve entrar na sequência da navegação pelo teclado (através da tecla TAB), e qual posição da sequência.
+    Sobre seus valores:
+        ✦ um valor negativo  indica que o elemento é focável, mas não é alcançável pela navegação sequencial do teclado
+          (através da tecla TAB);
+        ✦ 0 indica que o elemento é focável e alcançavel pela navegação sequencial do teclado, mas sua ordem de seleção
+          relativa é definida pela convenção da plataforma (ou do navegador);
+        ✦ um valor positivo indica que o elemento é focável e alcançável pela navegação sequencial do teclado; sua ordem
+          de seleção relativa é definida pelo valor colocado: a sequência segue em ordem crescente definida no tabindex. Se vários elementos possuem o mesmo valor de tabindex, sua ordem relativa é estabelecida pela posição relativa no documento HTML.
+ -->
